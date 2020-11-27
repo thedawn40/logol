@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: logol
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: user
+Implementation-Vendor-Id: logol
+Build-Jdk: 1.8.0_151
+Implementation-URL: https://spring.io/projects/spring-boot/logol
+Created-By: Maven Integration for Eclipse
+
