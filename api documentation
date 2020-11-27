@@ -1,0 +1,67 @@
+##FIND ALL
+METHOD = GET
+url = localhost:8080/news
+Result Example 
+{
+    "status": 1,
+    "message": "Success",
+    "contents": [
+        {
+            "id": "news01",
+            "title": "Test 1 update",
+            "description": "Hello 1",
+            "createdDate": "2020-11-27T00:00:19.000+00:00"
+        }
+    ],
+    "totalRecords": 1
+}
+
+
+##INSERT
+METHOD = POST
+url = localhost:8080/news/insert
+RequestBody Example
+{
+    "id":"news01",
+    "title":"Test 1",
+    "description":"Hello 1"
+}
+Result Example 
+{
+    "status": 1,
+    "message": "Success",
+    "contents": null,
+    "totalRecords": 0
+}
+
+##UPDATE
+METHOD = PUT 
+url = localhost:8080/news/update
+RequestBody Example
+{
+    "id":"news01",
+    "title":"Test 1 update",
+    "description":"Hello 1"
+}
+Result Example 
+{
+    "status": 1,
+    "message": "Success",
+    "contents": null,
+    "totalRecords": 0
+}
+
+##DELETE
+METHOD = POST
+url = localhost:8080/news/delete
+RequestBody Example
+{
+    "id":"news01"
+}
+Result Example 
+{
+    "status": 1,
+    "message": "Success",
+    "contents": null,
+    "totalRecords": 0
+}
