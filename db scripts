@@ -1,0 +1,7 @@
+CREATE TABLE `news` (
+ `id` varchar(10) NOT NULL,
+ `title` varchar(100) NOT NULL,
+ `description` text,
+ `created_date` datetime NOT NULL,
+ PRIMARY KEY (`id`)
+) 
